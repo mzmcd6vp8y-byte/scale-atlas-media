@@ -1,0 +1,53 @@
+# Copied to scale-atlas-media/.github/workflows/publish.yml by syncQueue() in scripts/post.mjs. Edit it here.
+# 19:00 KST, with 21:00 and 23:00 runs as retries (GitHub may start a scheduled run late; ci-publish.mjs posts once a day).
+name: publish
+on:
+  schedule:
+    - cron: '0 10 * * *'
+    - cron: '0 12 * * *'
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: only check tokens and hosted files
+        type: boolean
+        default: true
+      force:
+        description: post now even before POST_TIME
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - run: node ci-publish.mjs
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ secrets.YT_PRIVACY }}
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          DRY: ${{ inputs.dry && '1' || '' }}
+          FORCE: ${{ inputs.force && '1' || '' }}
+      - if: always() && !inputs.dry
+        run: |
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -qm 'Publish run'
+          git push || (git pull -q --rebase && git push)

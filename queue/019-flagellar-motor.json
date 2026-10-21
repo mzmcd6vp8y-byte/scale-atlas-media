@@ -1,0 +1,20 @@
+{
+	"id": "flagellar-motor",
+	"no": "019",
+	"caption": "세균 속에서 지름 45나노미터짜리 진짜 모터가 돌아요.\n머리카락 굵기는 꼬리 길이 약 10개분이고, 고정자는 돌면서도 교체돼요.\n\n세균 편모 모터 · Bacterial flagellar motor\n출처: Quarterly Reviews of Biophysics, PMC 논문\n#스케일아틀라스 #편모모터 #세균 #나노머신 #생물학 #미생물 #크기비교\n",
+	"video": {
+		"name": "a995ad070c5cfd0b.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/a995ad070c5cfd0b.mp4"
+	},
+	"cover": {
+		"name": "49088aae5fed9a94.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/49088aae5fed9a94.jpg"
+	},
+	"hashes": {
+		"video": "a995ad070c5cfd0b7ba6e12a14169fb8a243dd168899b8429458ccf391bcf457",
+		"cover": "49088aae5fed9a94919418c597c6a2067fcb8dfa30bcfb9da1649f3a5e11af1b",
+		"caption": "8150d80649c303a6f0608c37d272db1f097925907b08cbbdd67388324e421123"
+	},
+	"status": "queued",
+	"attempts": 0
+}

@@ -1,0 +1,20 @@
+{
+	"id": "big-muskie",
+	"no": "020",
+	"caption": "한 번에 약 295t의 흙과 돌을 끌어 올린 빅 머스키. 버킷 용적은 약 168m³.\n석탄은 직접 캐지 않고, 그 위의 흙과 돌을 걷어냈어요.\n\n빅 머스키 · Big Muskie\n출처: Caterpillar, CLUI, Ohio Cooperative Living, Ohio Department of Natural Resources, Farm Collector\n\n#스케일아틀라스 #빅머스키 #굴착기 #보행굴착기 #기계 #크기비교\n",
+	"video": {
+		"name": "ed6bb10fb81898ac.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/ed6bb10fb81898ac.mp4"
+	},
+	"cover": {
+		"name": "63acf97119270f94.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/63acf97119270f94.jpg"
+	},
+	"hashes": {
+		"video": "ed6bb10fb81898ac876ce1128335da6680740b87fec2073efe7c1128a6ee87b3",
+		"cover": "63acf97119270f9404ec76f756f4d43c9fa658eadee49dfe93dd96357f1a449d",
+		"caption": "05b6125d96b49e1bd39d7b1a6ff6ca7d45de916188c51977a1ebfaac78c26900"
+	},
+	"status": "queued",
+	"attempts": 0
+}

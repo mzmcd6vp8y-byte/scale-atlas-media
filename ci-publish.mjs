@@ -25,6 +25,13 @@ export const pick = (entries, now = new Date(), force = false) => {
 	return x && !(x.status === 'failed' && (x.attempts ?? 0) >= 3) ? x : null;
 };
 
+// ms from now to POST_TIME today (KST), 0 once it has passed. Runs start hours early because GitHub drops or delays
+// scheduled runs (2026-10-21: none of 19:00/19:47 ran); the first one that starts waits here, so the post lands at 19:00.
+export const untilPost = (now = new Date()) => {
+	const min = (t) => +t.slice(0, 2) * 60 + +t.slice(3, 5);
+	return Math.max(0, (min(env.POST_TIME ?? '19:00') - min(kst(now).split(' ')[1])) * 60000 - now.getSeconds() * 1000);
+};
+
 const tg = async (text) => {
 	if (!env.TG_TOKEN) return;
 	await fetch(`https://api.telegram.org/bot${env.TG_TOKEN}/sendMessage`, {
@@ -147,6 +154,12 @@ const unhost = (x) => {
 };
 
 const main = async () => {
+	const wait = env.DRY || env.FORCE ? 0 : untilPost();
+	if (wait) {
+		console.log(`waiting ${Math.round(wait / 60000)} min for ${env.POST_TIME ?? '19:00'} KST`);
+		await sleep(wait);
+		execFileSync('git', ['pull', '-q', '--rebase']); // queue changes the Mac pushed meanwhile
+	}
 	const files = existsSync(Q) ? readdirSync(Q).filter((f) => f.endsWith('.json')) : [];
 	const entries = files.map((f) => ({f: join(Q, f), x: JSON.parse(readFileSync(join(Q, f), 'utf8'))}));
 	const write = ({f, x}) => writeFileSync(f, JSON.stringify(x, null, '\t') + '\n');

@@ -1,9 +1,12 @@
 # Copied to scale-atlas-media/.github/workflows/publish.yml by syncQueue() in scripts/post.mjs. Edit it here.
-# 19:17 KST and retries (ci-publish.mjs posts once a day). Off the hour: GitHub delays or drops top-of-hour schedules
-# (2026-10-21: the 10:00 UTC run never started), and the Mac bot also dispatches it at 19:20 when it is on.
+# GitHub delays or drops scheduled runs (2026-10-21: neither 19:00 nor 19:47 KST started), so runs are scheduled hourly
+# from 13:23 KST: the first one that starts waits in ci-publish.mjs until 19:00 and posts (one post a day), later ones
+# queue behind it and find nothing to do. 19:17 and later are retries; the Mac bot also dispatches at 19:20 when on.
 name: publish
 on:
   schedule:
+    - cron: '23 4-9 * * *'
+    - cron: '43 9 * * *'
     - cron: '17 10 * * *'
     - cron: '47 10 * * *'
     - cron: '17 12 * * *'
@@ -26,7 +29,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

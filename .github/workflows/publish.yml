@@ -2,8 +2,13 @@
 # GitHub delays or drops scheduled runs (2026-10-21: neither 19:00 nor 19:47 KST started), so runs are scheduled hourly
 # from 13:23 KST: the first one that starts waits in ci-publish.mjs until 19:00 and posts (one post a day), later ones
 # queue behind it and find nothing to do. 19:17 and later are retries; the Mac bot also dispatches at 19:20 when on.
+# None of those schedules ever fired on this repo, so a Claude cloud routine pushes tick.txt at 18:50 and 19:50 KST
+# (user, 2026-10-21): that push starts this run, which waits until 19:00 like an early scheduled one.
 name: publish
 on:
+  push:
+    branches: [main]
+    paths: [tick.txt]
   schedule:
     - cron: '23 4-9 * * *'
     - cron: '43 9 * * *'

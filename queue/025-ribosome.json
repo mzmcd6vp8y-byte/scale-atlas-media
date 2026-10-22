@@ -1,0 +1,20 @@
+{
+	"id": "ribosome",
+	"no": "025",
+	"caption": "작은 기계 여러 대가 같은 가닥에서 단백질을 만들다가, 멈춰 충돌하면 세포가 알아채요.\n리보솜 하나는 사람 세포에서 단백질 재료를 매초 약 5개씩 이어 붙여요.\n\n리보솜 · Ribosome\n출처: BioNumbers, Frontiers in RNA Research, PLOS Computational Biology, Frontiers in Cell and Developmental Biology, Frontiers in Physiology\n\n#스케일아틀라스 #리보솜 #단백질 #세포 #RNA #생명과학 #크기비교\n",
+	"video": {
+		"name": "4067aab7cda0c07c.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/4067aab7cda0c07c.mp4"
+	},
+	"cover": {
+		"name": "d7c98d2c82ba212b.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/d7c98d2c82ba212b.jpg"
+	},
+	"hashes": {
+		"video": "4067aab7cda0c07cc7b22ca280928f6abecc84bced6a97b9844990d232364256",
+		"cover": "d7c98d2c82ba212bb4012b4593f531c7a197261815984639265354d02d7e887f",
+		"caption": "74404d336d032afde00b67f0d3805ee6027109059a626311189fb3f4f6a07d84"
+	},
+	"status": "queued",
+	"attempts": 0
+}

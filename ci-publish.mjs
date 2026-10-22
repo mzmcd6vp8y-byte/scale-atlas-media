@@ -158,8 +158,10 @@ const main = async () => {
 	if (wait) {
 		console.log(`waiting ${Math.round(wait / 60000)} min for ${env.POST_TIME ?? '19:00'} KST`);
 		await sleep(wait);
-		execFileSync('git', ['pull', '-q', '--rebase']); // queue changes the Mac pushed meanwhile
 	}
+	// always read the newest queue: what the Mac pushed meanwhile, and what an earlier run already posted (a run that
+	// started late skipped this and posted an-225 a second time, 2026-10-22)
+	execFileSync('git', ['pull', '-q', '--rebase']);
 	const files = existsSync(Q) ? readdirSync(Q).filter((f) => f.endsWith('.json')) : [];
 	const entries = files.map((f) => ({f: join(Q, f), x: JSON.parse(readFileSync(join(Q, f), 'utf8'))}));
 	const write = ({f, x}) => writeFileSync(f, JSON.stringify(x, null, '\t') + '\n');

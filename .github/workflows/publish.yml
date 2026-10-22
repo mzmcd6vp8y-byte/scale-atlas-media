@@ -36,7 +36,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
+      # the latest main, not the commit that triggered the run: a run queued behind another must see what that one posted
+      # (2026-10-22: a tick-push run checked out its own older commit, saw an-225 unposted and uploaded it to YouTube again)
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 24

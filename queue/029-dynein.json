@@ -1,0 +1,20 @@
+{
+	"id": "dynein",
+	"no": "029",
+	"caption": "이 분자는 옆으로도 걸어요. 옆걸음은 약 4.6nm예요.\n두 발로 미세소관을 따라가다가 교차점에선 선로도 갈아타요.\n\n다이닌 · Dynein\n출처: Scientific Reports, eLife, Journal of Cell Biology\n\n#스케일아틀라스 #다이닌 #분자모터 #미세소관 #세포 #크기비교\n",
+	"video": {
+		"name": "96270289ff9afccc.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/96270289ff9afccc.mp4"
+	},
+	"cover": {
+		"name": "364b4ccd00db4e76.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/364b4ccd00db4e76.jpg"
+	},
+	"hashes": {
+		"video": "96270289ff9afccc63d672b0baa6ec8f61dd74e9858512d205dc08965d0871ea",
+		"cover": "364b4ccd00db4e76f271c5cab1bf65359142c34f423ce18649621f138666dbc4",
+		"caption": "9f39dda972086a7b4403add5e543c80bfc7e160e485b2579f87bd4410f8899a8"
+	},
+	"status": "queued",
+	"attempts": 0
+}

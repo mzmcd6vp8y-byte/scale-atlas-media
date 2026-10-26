@@ -1,0 +1,20 @@
+{
+	"id": "dynein",
+	"no": "028",
+	"caption": "분자 모터 다이닌은 선로를 따라가다가 옆으로도 약 4.6nm 발을 디뎌요.\n세포 안에서는 미세소관 교차점에서 다른 선로로 갈아타고, HIV-1도 핵 쪽으로 실어 나릅니다.\n\n다이닌 · Dynein\n출처: PNAS, Scientific Reports, eLife, Nature Communications\n\n#스케일아틀라스 #다이닌 #분자모터 #세포 #미세소관 #생물학 #크기비교\n",
+	"video": {
+		"name": "f094211f13a5916a.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/f094211f13a5916a.mp4"
+	},
+	"cover": {
+		"name": "a0a46199bf73455f.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/a0a46199bf73455f.jpg"
+	},
+	"hashes": {
+		"video": "f094211f13a5916aeb70c196ded74c76a6bdb44b402ae77ab4e4b42fba1f7fde",
+		"cover": "a0a46199bf73455f4c3c93bb28862673ebed4244db0f8f2052c2c2fd808bf09b",
+		"caption": "7d1692687e7642bedbf3f76cfd00471153e64e96750b87b5751a819462f7db7d"
+	},
+	"status": "queued",
+	"attempts": 0
+}

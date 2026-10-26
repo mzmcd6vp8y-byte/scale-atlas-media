@@ -1,0 +1,20 @@
+{
+	"id": "pygmy-marmoset",
+	"no": "030",
+	"caption": "손바닥에 앉는 작은 원숭이가 나무에 10~20mm 구멍을 뚫어요.\n먹는 시간의 60~80%를 나무에서 나온 즙을 먹는 데 써요.\n\n피그미 마모셋 · Pygmy marmoset\n출처: 위스콘신대 Primate Info Net, Discover Wildlife, 한국은행\n#스케일아틀라스 #피그미마모셋 #원숭이 #마모셋 #동물 #나무진 #크기비교\n",
+	"video": {
+		"name": "5bab93b552b7164d.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/5bab93b552b7164d.mp4"
+	},
+	"cover": {
+		"name": "325379e5ed71bf8c.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/325379e5ed71bf8c.jpg"
+	},
+	"hashes": {
+		"video": "5bab93b552b7164d42b2f912c96b5660fe2c3afe5da27c1b3f76cf31b9f30b72",
+		"cover": "325379e5ed71bf8cc6149ed4afe838171b766f7f549d627835d93bd6a6ab5688",
+		"caption": "8ef95942f91b8e0657b1c098219754246b65dcfb3df53ba1aa783540fd7e7658"
+	},
+	"status": "queued",
+	"attempts": 0
+}

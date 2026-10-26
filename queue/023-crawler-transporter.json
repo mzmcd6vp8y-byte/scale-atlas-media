@@ -1,0 +1,20 @@
+{
+	"id": "crawler-transporter",
+	"no": "023",
+	"caption": "로켓을 나르지만 로켓에는 닿지 않아요.\n크롤러는 발사대 밑을 받쳐 로켓을 옮겨요.\n\nNASA 크롤러-트랜스포터 2\n출처: NASA\n\n#스케일아틀라스 #크롤러트랜스포터 #NASA #로켓 #우주 #크기비교\n",
+	"video": {
+		"name": "5513326db9339b77.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/5513326db9339b77.mp4"
+	},
+	"cover": {
+		"name": "4f1931538cac64d4.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/4f1931538cac64d4.jpg"
+	},
+	"hashes": {
+		"video": "5513326db9339b778ef4226988fecf984c62c4f2fdd73d09f22ed56b253026ca",
+		"cover": "4f1931538cac64d4ec802e16a6f8665b3e24d4d83cdd149531e2e23838602668",
+		"caption": "50f96b9ba0ba64bc852eee3e2c9135dd07155caa33b97dc096447ff158bd354e"
+	},
+	"status": "queued",
+	"attempts": 0
+}

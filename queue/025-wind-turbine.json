@@ -1,0 +1,20 @@
+{
+	"id": "wind-turbine",
+	"no": "025",
+	"caption": "바다에 뜬 풍력 터빈을 해저의 강철선이 아래로 잡아당겨요.\n큰 날개가 도는 동안 먼바다의 유전으로 전기를 보냅니다.\n\n해유안란호 초대형 해상 풍력 터빈 · Haiyou Anlan\n출처: Mingyang Smart Energy, Seetao, 타이안 고신구 정부, 채널A\n\n#스케일아틀라스 #해유안란호 #해상풍력 #풍력터빈 #부유식풍력 #크기비교\n",
+	"video": {
+		"name": "af571175217f77a5.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/af571175217f77a5.mp4"
+	},
+	"cover": {
+		"name": "945d4ff270467066.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/945d4ff270467066.jpg"
+	},
+	"hashes": {
+		"video": "af571175217f77a5a49e04c49b815d0a2088c90e12e1b7b8fd987c4fef91a137",
+		"cover": "945d4ff2704670660095ddd416af8d517c3a86f27b2602c2b92070268ae3d386",
+		"caption": "49533ea0f4fdfb9e0aad96811a22d9e3efa36d4b1a60e4523b59b2247f8848e0"
+	},
+	"status": "queued",
+	"attempts": 0
+}

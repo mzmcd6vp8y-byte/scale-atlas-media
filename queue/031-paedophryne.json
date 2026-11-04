@@ -15,6 +15,7 @@
 		"cover": "7d2295b65c1b12947ba65589d5bc8a01286243e621498c432f5d178c2f196ed0",
 		"caption": "5dc23b32477f24b9336e0c242778981b7494270bf46485cda8bb37cb02fd26dd"
 	},
-	"status": "queued",
-	"attempts": 0
+	"status": "publishing",
+	"attempts": 1,
+	"container": "18146950279561658"
 }

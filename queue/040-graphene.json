@@ -1,0 +1,20 @@
+{
+	"id": "graphene",
+	"no": "040",
+	"caption": "원자 한 겹짜리 그래핀은 헬륨도 거의 못 지나가게 해요.\n그런데 같은 막에서 수소는 통과했어요.\n\n그래핀 · Graphene\n출처: Nobel Prize, University of Manchester, arXiv, 한국은행\n#스케일아틀라스 #그래핀 #탄소 #원자 #나노소재 #과학 #크기비교\n",
+	"video": {
+		"name": "eaeda7adb78a382c.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/eaeda7adb78a382c.mp4"
+	},
+	"cover": {
+		"name": "44e688aea627ca3c.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/44e688aea627ca3c.jpg"
+	},
+	"hashes": {
+		"video": "eaeda7adb78a382cb6c5c30fec5547a34d446f2112b4795aa250eff558e31b44",
+		"cover": "44e688aea627ca3c02beb593e9b839f19f775c29243de19393608d99762c194c",
+		"caption": "4decb4e38eaa09fc1bd7037309c2e5fefe0c312aea7f0bc723114ffb026c736a"
+	},
+	"status": "queued",
+	"attempts": 0
+}

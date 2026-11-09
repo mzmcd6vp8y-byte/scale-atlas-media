@@ -1,0 +1,20 @@
+{
+	"id": "nasa-vab",
+	"no": "041",
+	"caption": "크레인이 달걀을 깨뜨리지 않고 그 위에 물건을 내려놓는 건물. 문 하나 여는 데 약 45분, 문 높이만 약 139m예요.\n우주왕복선 임무 135회 모두 이 건물에서 발사 전 준비를 거쳤어요.\n\nNASA 로켓 조립 건물 · Vehicle Assembly Building\n출처: NASA, NASA Goddard (asd.gsfc.nasa.gov)\n\n#스케일아틀라스 #NASA #로켓조립건물 #케네디우주센터 #건축 #우주 #크기비교\n",
+	"video": {
+		"name": "ae61be9c729b2af1.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/ae61be9c729b2af1.mp4"
+	},
+	"cover": {
+		"name": "f96134853743d50a.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/f96134853743d50a.jpg"
+	},
+	"hashes": {
+		"video": "ae61be9c729b2af1ef2b8b7aadb28c924456111f2d3bdba30be42f716882def3",
+		"cover": "f96134853743d50a881713feab756a84ff0f6b57dfc98078e2a8cefdb3139bb8",
+		"caption": "31d9891086a5e5673fea058b6d78b2e09a3d4fe9535d3fabcf8287ec0f9e745e"
+	},
+	"status": "queued",
+	"attempts": 0
+}

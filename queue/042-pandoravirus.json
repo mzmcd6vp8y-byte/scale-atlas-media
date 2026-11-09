@@ -1,0 +1,20 @@
+{
+	"id": "pandoravirus",
+	"no": "042",
+	"caption": "판도라바이러스는 감염된 세포가 터지지 않아도 밖으로 나올 수 있어요.\n길이 약 1.0µm인 입자는 아메바가 삼키고, 세포가 터질 때 약 100개가 나와요.\n\n판도라바이러스 · Pandoravirus\n출처: UFMG 연구 자료, Frontiers in Microbiology, PMC 논문\n\n#스케일아틀라스 #판도라바이러스 #바이러스 #아메바 #미생물 #현미경 #크기비교\n",
+	"video": {
+		"name": "b6d5e1e63baf3574.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/b6d5e1e63baf3574.mp4"
+	},
+	"cover": {
+		"name": "6838dcdead993226.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/6838dcdead993226.jpg"
+	},
+	"hashes": {
+		"video": "b6d5e1e63baf35746cf1d4bc10da430c5f7fe32a60f1056cc78088f7c965778e",
+		"cover": "6838dcdead9932269786dc18d264863cbb5d92b541a77ee30e6382bb0180a68c",
+		"caption": "bda01e1f9199094527e876b9434d7e3d27ea617785553db95c45cb02f419a5f7"
+	},
+	"status": "queued",
+	"attempts": 0
+}

@@ -1,0 +1,20 @@
+{
+	"id": "challenger-deep",
+	"no": "043",
+	"caption": "에베레스트를 바닥에 놓아도 정상 위에 바닷물이 남아요.\n가장 깊은 곳은 약 10,935m, 수면의 배 소리와 미세플라스틱도 깊은 곳까지 닿았어요.\n\n챌린저 해연 · Challenger Deep\n출처: NOAA, PMEL, Scientific Reports\n#스케일아틀라스 #챌린저해연 #마리아나해구 #심해 #해양과학 #크기비교\n",
+	"video": {
+		"name": "a73ca88f6155bc8e.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/a73ca88f6155bc8e.mp4"
+	},
+	"cover": {
+		"name": "9f137c4e62eeceaf.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/9f137c4e62eeceaf.jpg"
+	},
+	"hashes": {
+		"video": "a73ca88f6155bc8ebb073b2f5b3e796515d4e28dccbe71ed74bf08b666d6c093",
+		"cover": "9f137c4e62eeceaf9e9f5d960afe382b825068809cf1727fb1af454cefeb8e24",
+		"caption": "fb7f2119aea1a8e5b28be42140e0308f2b03a9b6dba3a210fbd30fbf93d12ea1"
+	},
+	"status": "queued",
+	"attempts": 0
+}

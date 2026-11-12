@@ -19,5 +19,11 @@
 	"attempts": 1,
 	"media": "18469015105184832",
 	"permalink": "https://www.instagram.com/reel/DfoypSijk-3/",
-	"publishedAt": "2026-11-12T10:01:44.297Z"
+	"publishedAt": "2026-11-12T10:01:44.297Z",
+	"youtube": {
+		"id": "ai6RlqhBfFc",
+		"privacy": "public",
+		"at": "2026-11-12T10:01:47.063Z"
+	},
+	"unhosted": true
 }

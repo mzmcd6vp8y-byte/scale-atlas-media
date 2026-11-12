@@ -1,0 +1,20 @@
+{
+	"id": "lhc",
+	"no": "045",
+	"caption": "땅속의 대형 강입자 충돌기 자석은 우주보다 차가운 약 -271°C로 식어요.\n둘레 약 27km의 고리에 15m짜리 주 자석 1,232개가 들어가요.\n\n대형 강입자 충돌기 · Large Hadron Collider\n출처: CERN, 롯데건설\n\n#스케일아틀라스 #대형강입자충돌기 #LHC #CERN #초전도자석 #입자물리학 #크기비교\n",
+	"video": {
+		"name": "a22cd2da9b971580.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/a22cd2da9b971580.mp4"
+	},
+	"cover": {
+		"name": "d56a55c072b4bf05.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/d56a55c072b4bf05.jpg"
+	},
+	"hashes": {
+		"video": "a22cd2da9b9715808c7756d583b5cb5193006070da2bccb4abcb6ea81ddb3aba",
+		"cover": "d56a55c072b4bf0553ee933011745de3a3b0c5b4f980433495ba481877e81b35",
+		"caption": "16cdef19c16644087d47e06845c8e979c1252e935a1d38501a50b33991f895bb"
+	},
+	"status": "queued",
+	"attempts": 0
+}

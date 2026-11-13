@@ -1,0 +1,20 @@
+{
+	"id": "coccolithophore",
+	"no": "047",
+	"caption": "현미경으로 봐야 보이는 세포가 바다 15만km²를 물들여 우주에서 보여요.\n하얀 석회판 약 15장이 햇빛을 튕겨내 청록색 꽃무리를 만들어요.\n\n코콜리토포어 · Coccolithophore\n출처: NASA Earth Observatory, Biogeosciences·Scientific Reports 논문\n#스케일아틀라스 #코콜리토포어 #플랑크톤 #위성사진 #바다 #생물학 #크기비교\n",
+	"video": {
+		"name": "86dc2ba6d72f2c19.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/86dc2ba6d72f2c19.mp4"
+	},
+	"cover": {
+		"name": "e04ab878b4c79d0f.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/e04ab878b4c79d0f.jpg"
+	},
+	"hashes": {
+		"video": "86dc2ba6d72f2c199c2fd8bd89a4b2e7e0946b95771e3b20606b1eed53e91372",
+		"cover": "e04ab878b4c79d0f39057ccf47443f4ad7f7610ebc75523963c8a7a0b9bb8fd4",
+		"caption": "30269c95bde97aaa7fe1794a8b834acd5884c9681dcfc64b5682882406148df8"
+	},
+	"status": "queued",
+	"attempts": 0
+}

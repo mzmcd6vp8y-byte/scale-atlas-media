@@ -1,0 +1,20 @@
+{
+	"id": "fast-telescope",
+	"no": "056",
+	"caption": "이 망원경 주변 반경 5km에선 휴대폰 사용이 제한돼요.\n전파를 잡아내려면 주변이 조용해야 하는 FAST 전파망원경, 움직이는 패널로 하늘을 겨눠요.\n\nFAST 전파망원경 · Five-hundred-meter Aperture Spherical radio Telescope\n출처: 중국과학원, Engineering, 롯데건설\n\n#스케일아틀라스 #FAST #전파망원경 #천문학 #우주 #과학 #크기비교\n",
+	"video": {
+		"name": "a482f70da9ebb77d.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/a482f70da9ebb77d.mp4"
+	},
+	"cover": {
+		"name": "ca43a9de1a3f0ba0.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/ca43a9de1a3f0ba0.jpg"
+	},
+	"hashes": {
+		"video": "a482f70da9ebb77ddea2295a255a5cb2c31f7bfbf5f3dbd6ede184d1b6634d82",
+		"cover": "ca43a9de1a3f0ba0668d97debd1a1d91ba3495abdc186b53656092cb6e8b9740",
+		"caption": "df36e1c0d9dc434e60cc33f153818fb5f9d1afec4fb78d9decd417c4b4666eb6"
+	},
+	"status": "queued",
+	"attempts": 0
+}

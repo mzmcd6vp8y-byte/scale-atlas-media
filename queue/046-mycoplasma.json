@@ -1,0 +1,20 @@
+{
+	"id": "mycoplasma",
+	"no": "046",
+	"caption": "세포벽이 하나도 없는데, 페니실린이 안 통해요.\n페니실린은 세포벽 만드는 걸 막지만, 이 세균엔 세포벽이 없어요.\n\n마이코플라스마 제니탈리움 · Mycoplasma genitalium\n출처: CDC, JCVI, 호주 공중보건검사망, PLOS Computational Biology\n\n#스케일아틀라스 #마이코플라스마 #세균 #미생물 #페니실린 #세포벽 #크기비교\n",
+	"video": {
+		"name": "40cd2e7d5aa33826.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/40cd2e7d5aa33826.mp4"
+	},
+	"cover": {
+		"name": "f81ddf1f886d8f6e.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/f81ddf1f886d8f6e.jpg"
+	},
+	"hashes": {
+		"video": "40cd2e7d5aa33826acd29d738277a3ca49827dec38e926f0d650c203b872759a",
+		"cover": "f81ddf1f886d8f6ebde33a6a74e9926f79728718a2d7c7371f4e047d93ef0fc9",
+		"caption": "ad4b7fa737fba0ebf82551e268e496cd80eefaf1330b2eaeb07e3b6dc8f1baeb"
+	},
+	"status": "queued",
+	"attempts": 0
+}

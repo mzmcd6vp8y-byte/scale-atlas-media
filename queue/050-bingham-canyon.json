@@ -1,0 +1,20 @@
+{
+	"id": "bingham-canyon",
+	"no": "050",
+	"caption": "광산 벽이 무너졌는데 다친 사람은 0명이에요.\n깊이 약 1,200m인 노천 광산, 붕괴 7시간 전 경고가 나갔어요.\n\n빙엄 캐니언 광산 · Bingham Canyon Mine\n출처: NASA Earth Observatory, National Park Service, 롯데건설\n\n#스케일아틀라스 #빙엄캐니언 #노천광산 #구리광산 #산사태 #크기비교\n",
+	"video": {
+		"name": "f156e03e7c01e7f5.mp4",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/f156e03e7c01e7f5.mp4"
+	},
+	"cover": {
+		"name": "39f007a7f5fcba2e.jpg",
+		"url": "https://mzmcd6vp8y-byte.github.io/scale-atlas-media/39f007a7f5fcba2e.jpg"
+	},
+	"hashes": {
+		"video": "f156e03e7c01e7f507c8284bef069b3209024062ce72b94d832667eb7c0e57e6",
+		"cover": "39f007a7f5fcba2ed929dc844fd2ac0702229fffc65c73fcceccab44ce44028e",
+		"caption": "e570a332d9f16b8c0591cd42124811499155a7badefef3092f4224cb6bf7f586"
+	},
+	"status": "queued",
+	"attempts": 0
+}

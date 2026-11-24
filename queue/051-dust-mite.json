@@ -19,5 +19,11 @@
 	"attempts": 1,
 	"media": "18083654336463014",
 	"permalink": "https://www.instagram.com/reel/DgHsLyYgCpB/",
-	"publishedAt": "2026-11-24T10:00:42.762Z"
+	"publishedAt": "2026-11-24T10:00:42.762Z",
+	"youtube": {
+		"id": "_rqVqZWu8Cw",
+		"privacy": "public",
+		"at": "2026-11-24T10:00:45.892Z"
+	},
+	"unhosted": true
 }
